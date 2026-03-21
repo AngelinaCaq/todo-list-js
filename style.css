@@ -1,0 +1,114 @@
+body {
+    background-color: #fff0f3;
+    font-family: sans-serif;
+    color: #5d4d50;
+    padding-top: 30px;
+}
+
+.todo-wrapper {
+    background: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(255, 182, 193, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #ff85a2;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.main-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.boton {
+    background-color: #ff85a2;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #ffb1bd;
+}
+
+.boton-secundario {
+    flex-grow: 1;
+    background-color: #fce4ec;
+    color: #ff85a2;
+    border: 1px solid #ffc1d3;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.contenedor_li {
+    display: flex;
+    align-items: center;
+    background-color: #fff9fa;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #ffe1e9;
+}
+
+.info-tarea {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.info-tarea p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #a08d91;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: #c0b2b5;
+    background-color: #fdfdfd;
+}
+
+.btn-accion {
+    background: none;
+    border: none;
+    color: #ff85a2;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.li-edit {
+    background: #fff9fa;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-chico {
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background: white;
+}
+
+.btn-chico.save {
+    background: #ff85a2;
+    color: white;
+    border: none;
+}
